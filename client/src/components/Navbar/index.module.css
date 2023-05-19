@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    display: flex;
+    gap: 200px;
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+.ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.ul li{
+    list-style: none;
+    font-size: 18px;
+}
+.brandname{
+    margin-left: 300px;
+    font-size: 24px;
+}
+.botton{
+    background-color: #FF6551;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.navbar{
+    height:825px;
+    width: 100%;
+    background-image: url(../../image/hero\ shape\ 7.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    
+}
+.blueSection{
+    text-align: center;
+    margin-top: 7%;
+}
+.blueSection p{
+    color: #FF6551;
+}
+.blueSection h1{
+    color: white;
+    margin-top: 2%;
+    font-size: 50px;
+}
+.blueSection h3{
+    color: white;
+    margin-top: 2%;
+}
+.bottonLeft{
+    width: 150px;
+    height: 40px;
+    background-color: #FF6551;
+    color: white;
+    border: 1px solid #FF6551;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+.bottonRight{
+    width: 150px;
+    height: 40px;
+    background-color: #2435A1;
+    color: #FF6551;
+    border: 1px solid #FF6551;
+    margin-top: 2%;
+}
